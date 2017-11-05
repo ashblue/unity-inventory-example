@@ -1,4 +1,5 @@
-﻿using Adnc.Utility;
+﻿using System.Collections.Generic;
+using Adnc.Utility;
 using UnityEngine;
 
 namespace Adnc.InventoryExample {
@@ -13,6 +14,14 @@ namespace Adnc.InventoryExample {
 
         public ItemInteraction Interactions {
             get { return _interactions; }
+        }
+        
+        [Tooltip("Cost displayed to the user")]
+        [SerializeField]
+        private List<CurrencyCost> _cost = new List<CurrencyCost>();
+
+        public virtual List<CurrencyCost> Cost {
+            get { return _cost; }
         }
     }
 }

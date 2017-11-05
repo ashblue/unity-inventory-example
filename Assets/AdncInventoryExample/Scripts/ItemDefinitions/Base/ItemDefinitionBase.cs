@@ -20,14 +20,6 @@ namespace Adnc.InventoryExample {
             }
         }
 
-        [Tooltip("Cost displayed to the user")]
-        [SerializeField]
-        private int _cost;
-
-        public virtual int Cost {
-            get { return _cost; }
-        }
-
         [Tooltip("Description displayed to the user")]
         [TextArea]
         [SerializeField]
