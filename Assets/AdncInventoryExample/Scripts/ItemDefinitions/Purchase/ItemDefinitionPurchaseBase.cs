@@ -18,5 +18,13 @@ namespace Adnc.InventoryExample {
         public virtual List<CurrencyCost> Sale {
             get { return _sale; }
         }
+
+        [Tooltip("Cost in materials to the player")]
+        [SerializeField]
+        private List<MaterialCost> _materials = new List<MaterialCost>();
+
+        public virtual List<MaterialCost> Materials {
+            get { return _materials; }
+        }
     }
 }
