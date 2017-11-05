@@ -11,5 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0efaf1ddc1d046bc953942424c71e223, type: 3}
   m_Name: CurrencyReaperTokens
   m_EditorClassIdentifier: 
-  _displayName: 
+  _displayName: ReaperTokens
   _description: 

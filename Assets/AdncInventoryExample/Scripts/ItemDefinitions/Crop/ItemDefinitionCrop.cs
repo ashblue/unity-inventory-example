@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Adnc.InventoryExample {
     [CreateAssetMenu(fileName = "Crop", menuName = MENU_PATH + "Crop")]
-    public class ItemDefinitionCrop : ItemDefinitionBase {
+    public class ItemDefinitionCrop : ItemDefinitionPurchaseBase {
         [Header("Crop Details")]
 
         [Tooltip("How can this object interact with the game world?")]
@@ -14,14 +14,6 @@ namespace Adnc.InventoryExample {
 
         public ItemInteraction Interactions {
             get { return _interactions; }
-        }
-        
-        [Tooltip("Cost displayed to the user")]
-        [SerializeField]
-        private List<CurrencyCost> _cost = new List<CurrencyCost>();
-
-        public virtual List<CurrencyCost> Cost {
-            get { return _cost; }
         }
     }
 }

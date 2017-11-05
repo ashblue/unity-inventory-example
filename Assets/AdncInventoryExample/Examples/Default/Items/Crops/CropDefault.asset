@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Name: CropDefault
   m_EditorClassIdentifier: 
   _displayName: 
-  _cost: 0
   _description: 
+  _cost:
+  - currency: {fileID: 11400000, guid: 80a26599c9f594514bb53563b44366d3, type: 2}
+    quantity: 22
+  - currency: {fileID: 11400000, guid: 45dc2cfbd85ec4b0399a7fb84f50fe61, type: 2}
+    quantity: 1
+  _sale: []
   _interactions: -7

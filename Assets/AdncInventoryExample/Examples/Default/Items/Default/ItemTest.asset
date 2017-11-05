@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Name: ItemTest
   m_EditorClassIdentifier: 
   _displayName: 
-  _cost: 0
   _description: 
+  _cost: []
+  _sale: []
